@@ -1,0 +1,32 @@
+/*
+ * KEYPAD_CONFIG.h
+ *
+ *  Author: Kirellos Emad Samir
+ */ 
+
+
+#ifndef KEYPAD_CONFIG_H_
+#define KEYPAD_CONFIG_H_
+
+#include "CPU_CONFIGURATION.h"
+
+#define KEYPAD_PORT DIO_PORTD
+
+#define KEYPAD_OUT_PIN0 DIO_PIN0
+#define KEYPAD_OUT_PIN1 DIO_PIN1
+#define KEYPAD_OUT_PIN2 DIO_PIN2
+#define KEYPAD_OUT_PIN3 DIO_PIN3
+
+#define KEYPAD_INP_PIN0 DIO_PIN4
+#define KEYPAD_INP_PIN1 DIO_PIN5
+#define KEYPAD_INP_PIN2 DIO_PIN6
+#define KEYPAD_INP_PIN3 DIO_PIN7
+
+#define COL_INIT 0
+#define COL_FINAL 3
+
+#define ROW_INIT 4
+#define ROW_FINAL 7
+
+
+#endif /* KEYPAD_CONFIG_H_ */
